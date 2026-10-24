@@ -18,7 +18,7 @@ export const hero = {
   card: {
     title: 'Services',
     text: 'We offer a comprehensive range of dental services designed to meet the needs of every patient.',
-    image: 'dWARlvTfJvZGsuaCnPbV2hIzCRs.png',
+    image: 'dWARlvTfJvZGsuaCnPbV2hIzCRs.webp',
   },
 }
 
@@ -34,11 +34,11 @@ export const intro = {
   ],
   rightHeading: 'Why Dental?',
   avatars: [
-    'zyLihMsmSSdiL5g5jHJn4e6zQ.jpg',
-    '0YT123QRbremRM1AgxCueBx7IRY.jpg',
-    'yWUGDZMAYtE216zWWnYBZ0LBoRo.jpg',
-    'BcSdxaffL9NSUbnZMFbwTXGgdcc.jpg',
-    'puGp4Hi5DUcsbLLVVYEhrdP1lg.jpg',
+    'zyLihMsmSSdiL5g5jHJn4e6zQ.webp',
+    '0YT123QRbremRM1AgxCueBx7IRY.webp',
+    'yWUGDZMAYtE216zWWnYBZ0LBoRo.webp',
+    'BcSdxaffL9NSUbnZMFbwTXGgdcc.webp',
+    'puGp4Hi5DUcsbLLVVYEhrdP1lg.webp',
   ],
   text: "Whether you're visiting for a routine check-up or a more advanced procedure, we ensure your oral health is in the best hands, helping you achieve a confident, healthy smile.",
 }
@@ -140,7 +140,7 @@ export const whitening = {
     },
   ],
   cta: 'Make Your Teeth Whiter',
-  image: '7zUhY9tbKk709Vw1k1wRc73HBk.jpg',
+  image: '7zUhY9tbKk709Vw1k1wRc73HBk.webp',
 }
 
 export const team = {
@@ -154,10 +154,10 @@ export const team = {
     cta: 'View Open Positions',
   },
   members: [
-    { image: '59ccaHEry6LmkQC2s7WW4oeuw.png', name: 'Dr. Jacob Wilson', role: 'Orthodontist' },
-    { image: 'BgzDweKKcYi3foYwXJZyMcZYmv4.png', name: 'Dr. Olivia Martinez', role: 'Chief Dentist' },
-    { image: 'GGnOiqzPpii2W1kI8LFkTIFJvs0.jpg', name: 'Lia Shanna', role: 'Dental Assistant' },
-    { image: '1ry27CM8DZ4TfIL4fu1Z2owiZj4.png', name: 'Emily Parker', role: 'Patient Coordinator' },
+    { image: '59ccaHEry6LmkQC2s7WW4oeuw.webp', name: 'Dr. Jacob Wilson', role: 'Orthodontist' },
+    { image: 'BgzDweKKcYi3foYwXJZyMcZYmv4.webp', name: 'Dr. Olivia Martinez', role: 'Chief Dentist' },
+    { image: 'GGnOiqzPpii2W1kI8LFkTIFJvs0.webp', name: 'Lia Shanna', role: 'Dental Assistant' },
+    { image: '1ry27CM8DZ4TfIL4fu1Z2owiZj4.webp', name: 'Emily Parker', role: 'Patient Coordinator' },
   ],
 }
 
@@ -168,21 +168,21 @@ export const testimonials = {
     {
       title: '“Wonderful Experience!”',
       text: "I've been visiting Dental for years, and I've always had a great experience. The staff is friendly, the office is clean and modern, and Dr. Martinez always takes the time to explain my treatment options. I'm so happy with my smile!",
-      avatar: 'BobOk65j6uDzBORMNee0gKRWGk.jpg',
+      avatar: 'BobOk65j6uDzBORMNee0gKRWGk.webp',
       name: 'Lisa Miles',
       role: 'Orthodontic Service',
     },
     {
       title: '“Highly Recommended!”',
       text: 'Dr. Wilson and his team made my orthodontic journey smooth and stress-free. The results are incredible, and I feel more confident than ever. I highly recommend Dental for anyone looking for top-notch dental care!',
-      avatar: 'cPnLmzkyXcZEojXUlOLK54T0yw.jpg',
+      avatar: 'cPnLmzkyXcZEojXUlOLK54T0yw.webp',
       name: 'Daniel Dalen',
       role: 'Orthodontic Service',
     },
     {
       title: '“Amazing Experience!”',
       text: "I was nervous about getting my first root canal, but Dr. Martinez and the whole team were so reassuring, kind, and professional. The procedure was quick, and I felt no pain. I'm grateful for the excellent care I received!",
-      avatar: 'G45vgYrNZfse4JlMfG3uP8wg.jpg',
+      avatar: 'G45vgYrNZfse4JlMfG3uP8wg.webp',
       name: 'Anna Frost',
       role: 'Orthodontic Service',
     },
@@ -198,7 +198,7 @@ export const schedule = {
     'Personalized Treatment Plans',
     'Comfortable Relaxing Environment',
   ],
-  image: 'Tk5H6Gua9njSZMCM2LwGgGGlFu4.jpg',
+  image: 'Tk5H6Gua9njSZMCM2LwGgGGlFu4.webp',
   icon: '91516UD7bQ6A5Eb1kKCG1bFNhbA.svg',
   heading: ['Schedule your visit', 'with us today!'],
   text: 'Our dedicated team at Dental is here to provide you with expert dental care in a comfortable and welcoming environment.',

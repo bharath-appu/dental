@@ -18,7 +18,7 @@ export default function Team() {
 
         {team.members.slice(0, 2).map((m) => (
           <figure className="member" key={m.name}>
-            <img src={`${IMG}${m.image}`} alt={m.name} />
+            <img src={`${IMG}${m.image}`} alt={m.name} loading="lazy" decoding="async" />
             <figcaption>
               <span className="member__name">{m.name}</span>
               <span className="member__role">{m.role}</span>
@@ -39,7 +39,7 @@ export default function Team() {
 
         {team.members.slice(2).map((m) => (
           <figure className="member" key={m.name}>
-            <img src={`${IMG}${m.image}`} alt={m.name} />
+            <img src={`${IMG}${m.image}`} alt={m.name} loading="lazy" decoding="async" />
             <figcaption>
               <span className="member__name">{m.name}</span>
               <span className="member__role">{m.role}</span>

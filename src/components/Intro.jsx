@@ -24,7 +24,7 @@ export default function Intro() {
             <h2 className="intro__heading intro__heading--single">{intro.rightHeading}</h2>
             <div className="intro__avatars">
               {intro.avatars.map((a, i) => (
-                <img key={a} src={`${IMG}${a}`} alt={`Patient ${i + 1}`} />
+                <img key={a} src={`${IMG}${a}`} alt={`Patient ${i + 1}`} loading="lazy" decoding="async" />
               ))}
             </div>
             <p className="intro__text">{intro.text}</p>

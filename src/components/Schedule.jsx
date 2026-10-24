@@ -14,7 +14,7 @@ export default function Schedule({ onBook }) {
         </div>
 
         <div className="schedule__media">
-          <img src={`${IMG}${schedule.image}`} alt="Dentist ready to see you" />
+          <img src={`${IMG}${schedule.image}`} alt="Dentist ready to see you" loading="lazy" decoding="async" />
         </div>
 
         <div className="schedule__content">

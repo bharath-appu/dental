@@ -38,7 +38,7 @@ export default function Whitening({ onBook }) {
         </div>
 
         <div className="whitening__compare">
-          <img src={`${IMG}${whitening.image}`} alt="Before and after teeth whitening" />
+          <img src={`${IMG}${whitening.image}`} alt="Before and after teeth whitening" loading="lazy" decoding="async" />
         </div>
       </div>
     </section>

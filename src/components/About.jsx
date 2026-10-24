@@ -1,6 +1,24 @@
+import { useEffect, useRef } from 'react'
 import { about } from '../data.js'
 
 export default function About() {
+  const videoRef = useRef(null)
+
+  // Only fetch + decode the clinic video while it is on screen.
+  useEffect(() => {
+    const video = videoRef.current
+    if (!video) return
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) video.play().catch(() => {})
+        else video.pause()
+      },
+      { threshold: 0.25 }
+    )
+    observer.observe(video)
+    return () => observer.disconnect()
+  }, [])
+
   return (
     <section className="about" id="about">
       <div className="container about__grid">
@@ -29,7 +47,14 @@ export default function About() {
         </div>
 
         <div className="about__media">
-          <video autoPlay loop muted playsInline poster="/images/F8S4eX96Pul5uYP4Yc6E8GH3aM.jpg">
+          <video
+            ref={videoRef}
+            loop
+            muted
+            playsInline
+            preload="metadata"
+            poster="/images/F8S4eX96Pul5uYP4Yc6E8GH3aM.webp"
+          >
             <source src="/videos/about-clinic.mp4" type="video/mp4" />
           </video>
         </div>

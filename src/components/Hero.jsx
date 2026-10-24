@@ -10,7 +10,7 @@ export default function Hero({ onBook }) {
           loop
           muted
           playsInline
-          poster={`${IMG}QZcT8U16OIs9tqgJachnJ2ZZZH0.png`}
+          poster={`${IMG}QZcT8U16OIs9tqgJachnJ2ZZZH0.webp`}
         >
           <source src="/videos/hero.mp4" type="video/mp4" />
         </video>

@@ -447,7 +447,7 @@ section {
   position: absolute;
   inset: 0;
   z-index: -2;
-  background: url('/images/dWARlvTfJvZGsuaCnPbV2hIzCRs.png') center / cover no-repeat;
+  background: url('/images/dWARlvTfJvZGsuaCnPbV2hIzCRs.webp') center / cover no-repeat;
 }
 
 .hero-card::after {

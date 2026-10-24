@@ -16,7 +16,7 @@ export default function Testimonials() {
                 <h3>{t.title}</h3>
                 <p>{t.text}</p>
                 <footer className="quote__author">
-                  <img src={`${IMG}${t.avatar}`} alt={t.name} />
+                  <img src={`${IMG}${t.avatar}`} alt={t.name} loading="lazy" decoding="async" />
                   <span>
                     <strong>{t.name}</strong>
                     <em>{t.role}</em>
